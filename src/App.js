@@ -25,20 +25,20 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow bg-yellow-300">
-        <div className="max-w-2xl mx-auto pt-10 pb-20 flex flex-col items-center">
+        <div className="max-w-2xl mx-auto pt-10 pb-10 flex flex-col items-center">
           <div className="h-48 w-48 mx-auto">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="https://cdn.pixabay.com/photo/2017/02/17/07/45/sunset-2073588_1280.jpg"
+                src="https://images.pexels.com/photos/19745364/pexels-photo-19745364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="rounded-full object-cover object-center"
                 alt="Profile"
               />
             </div>
           </div>
           <div className="text-center w-96 mt-2"> {/* Adjusted spacing */}
-            <h1 className="text-4xl font-bold mt-0">Dilip Nayak</h1> {/* Removed margin-top */}
+            <h1 className="text-4xl font-bold mt-0  pt-0">Dilip Nayak</h1> {/* Removed margin-top */}
             <p className="text-lg mt-3">
-              Hi, I'm Dilip Nayak, a graduate from GIET University, excelling in MERN Stack & Front End. Skilled in dynamic apps, tech-savvy, seeking impactful roles in MERN Stack or Front End Development.
+              Hi, I'm Dilip Nayak, a graduate from GIET University, excelling in MERN Stack & Front End Development.
             </p>
           </div>
           <div className="flex flex-col gap-10 my-2">
